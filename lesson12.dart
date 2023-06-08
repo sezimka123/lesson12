@@ -37,6 +37,7 @@ computerBinarySearch() {
     count++;
     print("Is it $middle?\n1) Yes\n2) Greater\n3) Less");
     int answer = int.parse(stdin.readLineSync()!);
+    
     if (answer == 1) {
       print("Got it in $count steps!");
       break;
